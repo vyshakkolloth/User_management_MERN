@@ -1,0 +1,110 @@
+.edit-profile{
+    background-color: black;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-page{
+    width: 60%;
+    display: flex;
+    height: 80vh !important; 
+    justify-content: center;  
+
+
+    
+}
+.edit-navbar{
+    width: 27%;
+    border: 1px grey groove;
+    background-color: rgb(0, 0, 0);
+    
+}
+.edit-navbar ul{
+    margin-top: 20px;
+}
+.edit-navbar ul li{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 16px;
+    list-style: none;
+    height: 40px;
+    color:rgb(102, 101, 101);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.nav-active{
+    background-color: rgb(31, 31, 31);
+    border-radius: 7px;
+    color: white !important;
+    margin: 0px 3px ;
+    
+}
+.edit-part{
+    width: 73%;
+    border: 1px ridge grey;
+    color: aliceblue;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}.heading{
+    width: 100%;
+    margin: 10px 0px 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.edit-part form{
+    padding-top: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.edit-input-profile{
+    /* background-color: rgb(34, 111, 179); */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.edit-input-profile img{
+    margin-right: 30px;
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.edit-input-profile div{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.edit-input-profile input{
+    display: none;
+}
+.edit-input-text input{
+    padding-left: 10px;
+    color: bisque;
+    width: 100% !important;
+     margin: 8px 0px;
+     height: 35px;
+     border: none;
+     border-radius: 5px;
+     background-color: rgb(31, 30, 30);
+}
+.img-addbtn{
+    color: blue;
+}
+.edit-form-submit button{
+    margin-top: 10px;
+    padding: 0px 4px;
+    height: 30px;
+    width: 60px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(13, 165, 240);
+    color: aliceblue;
+    font-weight: 400;
+}

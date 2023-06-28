@@ -1,0 +1,53 @@
+.NavbarA{
+    width: 15%;
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    position: fixed;
+    
+}
+.logo{
+    
+    margin: 40px 0px 10px 20px !important;
+    height: 60px;
+    width: 150px !important;
+    color: aliceblue;
+}
+
+
+.navItemss li{
+    padding-left: 30px;
+   height: 40px;
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+.navItemss li span{
+    padding-left: 10px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:100;
+    font-size: 17px;
+}
+.navItemss li i{
+    padding-left: 10px;
+    
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100% ;
+    padding: 0px 0px 10px 0px;
+}
+.title{
+    margin: 40px 0px 10px 30px;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.active{
+    border-radius: 8px;
+    background-color: gray;
+    margin: 0px 5px 0px 5px ;
+}
